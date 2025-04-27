@@ -49,6 +49,9 @@ F. true, all numbers except 0 are true in Node so true is true
 
 15. == allows conversions of different things to try to make them equal while === does not do type conversions and requires both sides to be the same type or else it's false. 
 
+17. I walk through the code. I first see a new Array is created. Then there is a for loop that loops through the entire array that is passed in and for each index of the passed in array, it will push the callback function with the argument corresponding to the value at the index of the passed in array. So now I know we have callback(1), callback(2), callback(3). The callback function takes a number and multiplies it by two so now I know newArr will have the new values of 2, 4, 6.
+
+19. It will print out 1 then 4 then 3 then 2. Since 1 and 4 have no timeout, it would print those immediately. Then it would print out 3 and then 2. 
 
 
 
