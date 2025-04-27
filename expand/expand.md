@@ -12,6 +12,7 @@ I think they added type loosely because they want it so that if an error arrises
 
 3. Javascript is an interpreted language. The key difference is a compiled language is compiled by a compiler into machine code before it is run. But an interpreted language is directly run by an intepretor that interprets the language line by line at run time. This leads to compiled code being faster at execution because they have already been read and translated to the machine while interpreted code takes longer since its being executed as its understood. Compiled languages detect error at compile time while interpreted languages are detected at runtime which means errors might not be caught in time before we already run the code. This gives javascript some advantages such as it's easy to use but some errors are harder to catch.
 
+
 4. 
 He wants to focus on vanilla because frameworks are constantly updated and if you use too many dependencies then youll always have to stay up to date with the latest syntax etc. But the fundamentals of js will always stay the same so your code has more consistency and reliability. Sometimes frameworks can be useful though because it allows you to save a lot of time using pre created things instead of building everything up from scratch which will take way longer than our allotted 6 weeks. 
 
